@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tanks-universe:block/aluminum_ore"
+  }
+}

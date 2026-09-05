@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tanks-universe:item/aluminum_ingot"
+  }
+}

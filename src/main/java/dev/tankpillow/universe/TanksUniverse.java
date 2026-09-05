@@ -1,11 +1,17 @@
 package dev.tankpillow.universe;
 
+import dev.tankpillow.universe.block.ModBlocks;
+import dev.tankpillow.universe.item.ModCreativeTab;
+import dev.tankpillow.universe.item.ModItems;
+import dev.tankpillow.universe.misc.CapeRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.CompletableFuture;
 
 public class TanksUniverse implements ModInitializer {
 
@@ -14,7 +20,11 @@ public class TanksUniverse implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		CompletableFuture.runAsync(CapeRegistry::load);
+
+		ModCreativeTab.register();
+		ModItems.register();
+		ModBlocks.register();
 	}
 
 	public static Identifier id(String path) {

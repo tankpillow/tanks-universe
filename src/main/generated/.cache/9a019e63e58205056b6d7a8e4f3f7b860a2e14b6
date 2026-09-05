@@ -1,0 +1,4 @@
+// 26.2	-999999999-01-01T00:00:00	Tank's Universe/Block Loot Tables
+359df187240a9eb2b29bd4ab014371d2fe1aac50 data/tanks-universe/loot_table/blocks/aluminum_block.json
+1df02d17086d10f51d411793a8f28634ca782362 data/tanks-universe/loot_table/blocks/aluminum_ore.json
+48c8ad2a5d1e9818aa40fdfd1d17598ad36b8b4c data/tanks-universe/loot_table/blocks/deepslate_aluminum_ore.json

@@ -1,0 +1,14 @@
+// 26.2	-999999999-01-01T00:00:00	Tank's Universe/Model Definitions
+92b352e728384a242fa10c1b6165e913f37434f3 assets/tanks-universe/blockstates/aluminum_block.json
+851127b7bc142d367d4127b9a1c3d199fa6be608 assets/tanks-universe/blockstates/aluminum_ore.json
+7785176b29c4bbc28d4462d9bb00dd994a9ea971 assets/tanks-universe/blockstates/deepslate_aluminum_ore.json
+00aa733912feb6d82cc4f143ea62659e032e17f8 assets/tanks-universe/items/aluminum_block.json
+d35beb23df6058e0739702e0c0cdd8e58b70b12b assets/tanks-universe/items/aluminum_ingot.json
+ab575da415eb3353680751f8f7fabb402cb0f979 assets/tanks-universe/items/aluminum_ore.json
+fb1a66b6849650c733a29302737ef6dab94c8f6f assets/tanks-universe/items/deepslate_aluminum_ore.json
+6f0ea2ecffafa4d7c74823726b2db24697bc0060 assets/tanks-universe/items/raw_aluminum.json
+12683a37d9519aa7b79635ae20d03b19045e0a25 assets/tanks-universe/models/block/aluminum_block.json
+97a0fa7d85dc94f9044db8de1a811c6c6330ca6d assets/tanks-universe/models/block/aluminum_ore.json
+cada010299f195741d406e5424840a879a589153 assets/tanks-universe/models/block/deepslate_aluminum_ore.json
+4c5fa3771e2d0db9031f874c9754064015b66117 assets/tanks-universe/models/item/aluminum_ingot.json
+9505f32ebbd6f7a3dac6198f5ebd053b54c20bc8 assets/tanks-universe/models/item/raw_aluminum.json
