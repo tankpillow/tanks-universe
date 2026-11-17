@@ -6,5 +6,6 @@
 
   "block.tanks-universe.aluminum_ore": "Aluminum Ore",
   "block.tanks-universe.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
-  "block.tanks-universe.aluminum_block": "Block of Aluminum"
+  "block.tanks-universe.aluminum_block": "Block of Aluminum",
+  "block.tanks-universe.raw_aluminum_block": "Block of Raw Aluminum"
 }

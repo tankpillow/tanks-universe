@@ -1,6 +1,7 @@
 package dev.tankpillow.universe;
 
 import dev.tankpillow.universe.datagen.ModBlockLootTableProvider;
+import dev.tankpillow.universe.datagen.ModBlockTagProvider;
 import dev.tankpillow.universe.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -12,5 +13,6 @@ public class TanksUniverseDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModBlockTagProvider::new);
 	}
 }

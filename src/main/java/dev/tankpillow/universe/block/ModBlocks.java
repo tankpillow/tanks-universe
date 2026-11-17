@@ -36,6 +36,13 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
     );
 
+    public static final Block RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(5.0f, 6.0f)
+                    .requiresCorrectToolForDrops()
+    );
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
         ResourceKey<Block> blockKey = keyOfBlock(name);
         Block block = blockFactory.apply(properties.setId(blockKey));
@@ -48,15 +55,15 @@ public class ModBlocks {
     }
 
     private static ResourceKey<Block> keyOfBlock(String name) {
-        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TanksUniverse.MOD_ID, name));
+        return ResourceKey.create(Registries.BLOCK, TanksUniverse.id(name));
     }
 
     private static ResourceKey<Item> keyOfItem(String name) {
-        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TanksUniverse.MOD_ID, name));
+        return ResourceKey.create(Registries.ITEM, TanksUniverse.id(name));
     }
 
     public static void register() {
-
+    	
     }
 
 }

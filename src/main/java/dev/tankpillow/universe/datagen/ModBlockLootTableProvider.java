@@ -18,6 +18,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     public void generate() {
         this.add(ModBlocks.ALUMINUM_ORE, (block) -> this.createOreDrop(block, ModItems.RAW_ALUMINUM));
         this.add(ModBlocks.DEEPSLATE_ALUMINUM_ORE, (block) -> this.createOreDrop(block, ModItems.RAW_ALUMINUM));
-        this.add(ModBlocks.ALUMINUM_BLOCK, block -> this.createSingleItemTable(ModBlocks.ALUMINUM_BLOCK));
+        this.add(ModBlocks.ALUMINUM_BLOCK, (_) -> this.createSingleItemTable(ModBlocks.ALUMINUM_BLOCK));
+        this.add(ModBlocks.RAW_ALUMINUM_BLOCK, (_) -> this.createSingleItemTable(ModBlocks.RAW_ALUMINUM_BLOCK));
     }
 }

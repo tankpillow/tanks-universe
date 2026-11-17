@@ -22,10 +22,11 @@ public class ModCreativeTab {
     public static final CreativeModeTab TANKS_UNIVERSE_TAB = FabricCreativeModeTab.builder()
             .title(Component.translatable("itemGroup.tanks-universe"))
             .icon(() -> new ItemStack(ModItems.ALUMINUM_INGOT))
-            .displayItems(((parameters, output) -> {
+            .displayItems(((_, output) -> {
                 output.accept(ModItems.ALUMINUM_INGOT);
                 output.accept(ModItems.RAW_ALUMINUM);
                 output.accept(ModBlocks.ALUMINUM_BLOCK);
+                output.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
                 output.accept(ModBlocks.ALUMINUM_ORE);
                 output.accept(ModBlocks.DEEPSLATE_ALUMINUM_ORE);
             })).build();

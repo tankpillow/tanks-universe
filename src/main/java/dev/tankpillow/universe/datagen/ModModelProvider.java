@@ -17,6 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.ALUMINUM_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_ALUMINUM_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.ALUMINUM_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_ALUMINUM_ORE);
     }
